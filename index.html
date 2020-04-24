@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olympic Game</title>
+    <link href="css/index.css">
+    <script src="js/Chart.min.js"></script>
+    <script src="js/utils.js"></script>
+    
+</head>
+
+<body>
+
+<div>
+    <!--bar chart of MEDALS won by each country in each sporty-->
+    <div class="wrapper" style="width: 100%;">
+        <canvas id="countryTotalRecordBar"></canvas>
+    </div>
+    <!--line chart of medals won by each country-->
+    <div class="wrapper" style="width: 100%;">
+        <canvas id="countryTotalRecord"></canvas>
+    </div>
+    <!--pie chart of the percentage of each sports medal-->
+    <div class="wrapper" style="width: 100%;">
+        <canvas id="countryTotalRecordPie"></canvas>
+    </div>
+
+    <!--Area chart of number of gold, silver and bronze medals for each country-->
+    <div class="wrapper"  style="width: 100%;">
+        <canvas id="countryTotalRecordLine"></canvas>
+    </div>
+
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
